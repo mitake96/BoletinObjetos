@@ -48,6 +48,21 @@ public class Persona {
 	// 1.4 Crea un constructor con parámetros que inicialize los atributos del objeto con los valores indicados en los parámetros
 	
 	
+	public Persona(String nombre, int edad, float altura, String ocupacion) {
+		
+		this.nombre=nombre;
+		this.edad=edad;
+		this.altura=altura;
+		this.ocupacion=ocupacion;
+		
+	}
+	
+	public String toString(){
+		
+		return String.format("Nombre= %s%nEdad= %d%nAltura= %.2f%%nOcupacion= %s", nombre, edad, altura, ocupacion);
+		
+	}
+	
 	
 	//1.5
 	

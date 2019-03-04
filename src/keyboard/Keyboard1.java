@@ -1,4 +1,4 @@
-package Ejercicios;
+package keyboard;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
